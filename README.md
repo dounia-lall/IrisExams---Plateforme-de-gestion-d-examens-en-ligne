@@ -54,7 +54,7 @@ Visualisation des corrections
 
 ---
 
-## 📊 Dashboard administrateur
+## 📊 Dashboard professeur
 
 ![Dashboard](./screenshots/04-admin-dashboard.png)
 
@@ -178,6 +178,7 @@ routes/
 screenshots/
 storage/
 tests/
+
 🎯 Objectif du projet
 
 Ce projet a été réalisé dans le cadre d’un portfolio de développement web afin de mettre en pratique :
@@ -190,7 +191,8 @@ Authentification
 Gestion d’examens en ligne
 Export de données
 Interface moderne responsive
-👩‍💻 Auteur
 
+👩‍💻 Auteur
 Dounia Lallouche
+
 Master Développement & Base de Données
