@@ -54,33 +54,63 @@ Visualisation des corrections
 
 ---
 
+## 📊 Dashboard administrateur
+
+![Dashboard](./screenshots/04-admin-dashboard.png)
+
+---
+
 ## 📝 Création d’examen
 
-![Création examen](./screenshots/03-create-exam.png)
+![Création examen](./screenshots/05-create-exam.png)
 
 ---
 
 ## ❓ Gestion des questions
 
-![Questions](./screenshots/04-questions.png)
+![Questions](./screenshots/07-question-management.png)
 
 ---
 
-## 📚 Liste des examens
+## ☑️ Question QCM
 
-![Liste examens](./screenshots/05-exams-list.png)
-
----
-
-## 👨‍🎓 Liste des étudiants
-
-![Étudiants](./screenshots/20-liste-etudiants.png)
+![QCM](./screenshots/08-qcm-question.png)
 
 ---
 
-## 📄 Copies corrigées
+## 👨‍🎓 Dashboard étudiant
 
-![Copies corrigées](./screenshots/19-copies-corrigees-prof.png)
+![Dashboard étudiant](./screenshots/10-student-dashboard.png)
+
+---
+
+## 📚 Interface examen étudiant
+
+![Interface examen](./screenshots/11-exam-interface.png)
+
+---
+
+## ✍️ Réponses étudiant
+
+![Réponses étudiant](./screenshots/12-student-answers.png)
+
+---
+
+## 📈 Statistiques
+
+![Statistiques](./screenshots/14-statistics.png)
+
+---
+
+## 📄 Export PDF des copies
+
+![Export PDF](./screenshots/15-pdf-export.png)
+
+---
+
+## 🛡️ Système anti-cheating
+
+![Anti Cheat](./screenshots/16-anti-cheat.png)
 
 ---
 
@@ -90,16 +120,27 @@ Visualisation des corrections
 
 ---
 
+## 📄 Copies corrigées par le professeur
+
+![Copies corrigées](./screenshots/19-copies-corrigees-prof.png)
+
+---
+
+## 👨‍🎓 Liste des étudiants
+
+![Liste étudiants](./screenshots/20-liste-etudiants.png)
+
+---
+
 ## ✅ Résultat final étudiant
 
 ![Résultat final](./screenshots/21-resultat-final-etudiant.png)
 
 ---
 
-## 📋 Détail des réponses
+## 📋 Détail des réponses et correction
 
 ![Détail réponses](./screenshots/22-detail-resultat-examen.png)
-
 ⚙️ Installation
 1. Cloner le projet
 git clone https://github.com/votre-compte/IrisExams.git
