@@ -268,7 +268,7 @@ tests/
 
 ---
 
-# 🎯 Objectif du projet
+# 🎯 Compétences développées
 
 Ce projet m’a permis de développer mes compétences en développement web fullstack :
 
