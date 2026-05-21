@@ -86,7 +86,7 @@ Visualisation des corrections
 
 ## 📚 Interface examen étudiant
 
-![Interface examen](./screenshots/11-exam-interface.png)
+![Interface examen](./screenshots/11-examInterface.png)
 
 ---
 
