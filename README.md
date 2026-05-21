@@ -1,44 +1,61 @@
-MyExam — Plateforme de gestion d’examens en ligne
+# MyExam — Plateforme de gestion d’examens en ligne
 
 MyExam est une application web développée avec Laravel, MySQL et TailwindCSS permettant aux enseignants de créer, gérer et corriger des examens en ligne.
 
 Le projet propose deux espaces distincts :
 
-👨‍🏫 Espace Enseignant
-👨‍🎓 Espace Étudiant
+- 👨‍🏫 Espace Enseignant
+- 👨‍🎓 Espace Étudiant
 
-L’application permet la création d’examens interactifs avec différents types de questions et un système de correction automatique.
+L’application permet la création d’examens interactifs avec différents types de questions ainsi qu’un système de correction automatique.
 
-🚀 Technologies utilisées
-Laravel
-PHP
-MySQL
-TailwindCSS
-Vite
-Blade
-JavaScript
-✨ Fonctionnalités principales
-👨‍🏫 Enseignant
-Authentification sécurisée
-Création d’examens
-Gestion des étudiants
-Ajout de questions :
-QCM
-Vrai / Faux
-Réponse texte
-Correction automatique
-Attribution d’une note finale
-Consultation des copies
-Export PDF
-Export CSV
-Organisation des étudiants par formation
-👨‍🎓 Étudiant
-Connexion sécurisée
-Consultation des examens
-Passage des examens en ligne
-Affichage du score automatique
-Consultation des résultats
-Visualisation des corrections
+---
+
+# 🚀 Technologies utilisées
+
+## Backend
+
+- Laravel
+- PHP
+- MySQL
+
+## Frontend
+
+- TailwindCSS
+- Blade
+- JavaScript
+- Vite
+
+---
+
+# ✨ Fonctionnalités principales
+
+## 👨‍🏫 Enseignant
+
+- Authentification sécurisée
+- Création d’examens
+- Gestion des étudiants
+- Ajout de questions :
+  - QCM
+  - Vrai / Faux
+  - Réponse texte
+- Correction automatique
+- Attribution d’une note finale
+- Consultation des copies
+- Export PDF
+- Export CSV
+- Organisation des étudiants par formation
+
+## 👨‍🎓 Étudiant
+
+- Connexion sécurisée
+- Consultation des examens
+- Passage des examens en ligne
+- Affichage automatique du score
+- Consultation des résultats
+- Visualisation des corrections
+
+---
 
 # 📸 Captures d’écran
 
@@ -141,33 +158,91 @@ Visualisation des corrections
 ## 📋 Détail des réponses et correction
 
 ![Détail réponses](./screenshots/22-detail-resultat-examen.png)
-⚙️ Installation
-1. Cloner le projet
-git clone https://github.com/votre-compte/IrisExams.git
-2. Accéder au dossier
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Cloner le projet
+
+```bash
+git clone https://github.com/dounia-lall/IrisExams---Plateforme-de-gestion-d-examens-en-ligne.git
+```
+
+## 2️⃣ Accéder au dossier du projet
+
+```bash
 cd IrisExams
-3. Installer les dépendances PHP
+```
+
+## 3️⃣ Installer les dépendances PHP
+
+```bash
 composer install
-4. Installer les dépendances frontend
+```
+
+## 4️⃣ Installer les dépendances frontend
+
+```bash
 npm install
-5. Configurer l’environnement
+```
 
-Créer le fichier .env :
+## 5️⃣ Configurer l’environnement
 
+Créer le fichier `.env` :
+
+```bash
 cp .env.example .env
+```
 
-Configurer la base de données dans .env.
+Configurer ensuite les informations de connexion MySQL dans le fichier `.env` :
 
-6. Générer la clé Laravel
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=iris_exams
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+---
+
+## 6️⃣ Générer la clé Laravel
+
+```bash
 php artisan key:generate
-7. Lancer les migrations
-php artisan migrate
-8. Lancer le serveur
-php artisan serve
-9. Compiler les assets
-npm run dev
+```
 
-📁 Structure du projet
+## 7️⃣ Lancer les migrations
+
+```bash
+php artisan migrate
+```
+
+## 8️⃣ Compiler les assets frontend
+
+```bash
+npm run dev
+```
+
+## 9️⃣ Lancer le serveur Laravel
+
+```bash
+php artisan serve
+```
+
+Accéder ensuite à :
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+# 📁 Structure du projet
+
+```text
 app/
 bootstrap/
 config/
@@ -178,21 +253,36 @@ routes/
 screenshots/
 storage/
 tests/
+```
 
-🎯 Objectif du projet
+---
 
-Ce projet a été réalisé dans le cadre d’un portfolio de développement web afin de mettre en pratique :
+# 🔒 Sécurité
 
-Laravel
-Gestion des rôles utilisateurs
-CRUD avancé
-Relations entre tables
-Authentification
-Gestion d’examens en ligne
-Export de données
-Interface moderne responsive
+- Authentification sécurisée
+- Protection CSRF Laravel
+- Validation des formulaires
+- Gestion des rôles utilisateurs
+- Système anti-cheating pendant les examens
+- Correction automatique sécurisée
 
-👩‍💻 Auteur
+---
+
+# 🎯 Objectif du projet
+
+Ce projet m’a permis de développer mes compétences en développement web fullstack :
+
+- Laravel
+- Gestion des rôles utilisateurs
+- CRUD avancé
+- Relations entre tables
+- Authentification sécurisée
+- Gestion d’examens en ligne
+- Export de données
+- Création d’interfaces modernes et responsives
+
+---
+
+# 👩‍💻 Auteur
+
 Dounia Lallouche
-
-Master Développement & Base de Données

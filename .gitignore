@@ -3,3 +3,5 @@
 .env
 /public/storage
 /storage/*.key
+/storage/logs/*
+/bootstrap/cache/*
